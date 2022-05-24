@@ -11,7 +11,7 @@ def GetDataSet(datasetName):
 
 def GetModel(modelName, denseNeu, outerNeu, outNeu, innerNeu = 32):
     return {
-        ModelnameEnum.HASBULLAH.value: Hasbullah(innerNeu, denseNeu, outerNeu, outNeu),
+        ModelnameEnum.IBH.value: IBH(innerNeu, denseNeu, outerNeu, outNeu),
         ModelnameEnum.ROBIN.value: Robin(denseNeu, outerNeu, outNeu),
     }[modelName]
 

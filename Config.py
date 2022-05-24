@@ -16,7 +16,7 @@ from tqdm import tqdm
 from tensorflow.keras.preprocessing.image import random_rotation, apply_affine_transform
 from enum import Enum
 class ModelnameEnum(Enum):
-    HASBULLAH = "Hasbullah"
+    IBH = "IBH"
     ROBIN = "Robin"
 class PaddingEnum(Enum):
     REFLECTIVE = "REFLECT"
@@ -28,7 +28,7 @@ class DatasetEnum(Enum):
     MNIST = "Mnist"
     SVHN = "Svhn"
 
-model_used = ModelnameEnum.ROBIN.value
+model_used = ModelnameEnum.IBH.value
 dataset_name = DatasetEnum.SVHN.value
 
 

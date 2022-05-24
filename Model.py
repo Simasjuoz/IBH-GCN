@@ -114,7 +114,7 @@ class Robin(Model):
         output = self.dense(output)
         return output
 
-class Hasbullah(Model):
+class IBH(Model):
     def __init__(self,  innerNeu, denseNeu, outerNeu, outNeu):
         self.blockAdj = getAdjMatrix(block_size)
         self.blockAdj = sp.csr_matrix(self.blockAdj)
