@@ -1,0 +1,13 @@
+Iteration: 0. Test loss: 1.1970. Test acc: 0.6438 -- NICE!
+Iteration: 1. Test loss: 1.1829. Test acc: 0.6458 -- NICE!
+Iteration: 2. Test loss: 1.2105. Test acc: 0.6390 -- NICE!
+OA: 0.6428666666666667
+BLOCKSIZE: 4
+BLOCKAMOUNT: 8
+stride: 4
+DROPOUT CHANCE: 0.12
+L2REG: 0.0005
+nan
+
+
+No train logs - only tested

@@ -1,0 +1,40 @@
+Model: "robin"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dropout_1 (Dropout)         multiple                  0         
+                                                                 
+ dense_5 (Dense)             multiple                  16        
+                                                                 
+ dense_6 (Dense)             multiple                  144       
+                                                                 
+ dense_7 (Dense)             multiple                  544       
+                                                                 
+ gcs_conv_19 (GCSConv)       multiple                  2080      
+                                                                 
+ gcs_conv_20 (GCSConv)       multiple                  2080      
+                                                                 
+ gcs_conv_21 (GCSConv)       multiple                  2080      
+                                                                 
+ gcs_conv_22 (GCSConv)       multiple                  2080      
+                                                                 
+ gcs_conv_23 (GCSConv)       multiple                  2080      
+                                                                 
+ global_max_pool_1 (GlobalMa  multiple                 0         
+ xPool)                                                          
+                                                                 
+ global_avg_pool_1 (GlobalAv  multiple                 0         
+ gPool)                                                          
+                                                                 
+ global_sum_pool_1 (GlobalSu  multiple                 0 (unused)
+ mPool)                                                          
+                                                                 
+ dense_8 (Dense)             multiple                  33280     
+                                                                 
+ dense_9 (Dense)             multiple                  5130      
+                                                                 
+=================================================================
+Total params: 49,514
+Trainable params: 49,514
+Non-trainable params: 0
+_________________________________________________________________

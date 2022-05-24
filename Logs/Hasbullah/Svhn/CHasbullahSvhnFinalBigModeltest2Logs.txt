@@ -1,0 +1,21 @@
+Degree: 0. Test loss: 0.8894. Test acc: 0.74 -- NICE!
+Degree: 30. Test loss: 1.8870. Test acc: 0.46
+Degree: 60. Test loss: 1.9220. Test acc: 0.44
+Degree: 90. Test loss: 0.9469. Test acc: 0.72 -- NICE!
+Degree: 120. Test loss: 1.9667. Test acc: 0.44
+Degree: 150. Test loss: 2.0066. Test acc: 0.41
+Degree: 180. Test loss: 1.0263. Test acc: 0.69 -- NICE!
+Degree: 210. Test loss: 2.0345. Test acc: 0.43
+Degree: 240. Test loss: 2.0428. Test acc: 0.41
+Degree: 270. Test loss: 0.9548. Test acc: 0.72 -- NICE!
+Degree: 300. Test loss: 1.9394. Test acc: 0.45
+Degree: 330. Test loss: 1.9252. Test acc: 0.44
+OA: 0.5292172454415077
+BLOCKSIZE: 2
+BLOCKAMOUNT: 16
+stride: 2
+DROPOUT CHANCE: 0.12
+L2REG: 0.0005
+
+
+

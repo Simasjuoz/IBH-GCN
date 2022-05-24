@@ -1,0 +1,10 @@
+Iteration: 0. Test loss: 1.4792. Test acc: 0.66 -- NICE!Iteration: 1. Test loss: 1.4724. Test acc: 0.66 -- NICE!Iteration: 2. Test loss: 1.4802. Test acc: 0.66 -- NICE!OA: 0.6591374718295432
+BLOCKSIZE: 2
+BLOCKAMOUNT: 16
+STRIDE: 2
+DROPOUT CHANCE: 0.12
+L2REG: 0.0005
+TOTAL TRAINING TIME: 0.032 seconds
+
+
+

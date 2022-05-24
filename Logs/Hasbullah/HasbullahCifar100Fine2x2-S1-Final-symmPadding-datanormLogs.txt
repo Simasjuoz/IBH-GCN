@@ -1,0 +1,71 @@
+Degree: 0. Test loss: 4.4222. Test acc: 0.04
+Degree: 30. Test loss: 4.4548. Test acc: 0.03
+Degree: 60. Test loss: 4.4559. Test acc: 0.03
+Degree: 90. Test loss: 4.4292. Test acc: 0.04
+Degree: 120. Test loss: 4.4546. Test acc: 0.03
+Degree: 150. Test loss: 4.4566. Test acc: 0.03
+Degree: 180. Test loss: 4.4380. Test acc: 0.04
+Degree: 210. Test loss: 4.4550. Test acc: 0.03
+Degree: 240. Test loss: 4.4559. Test acc: 0.03
+Degree: 270. Test loss: 4.4289. Test acc: 0.04
+Degree: 300. Test loss: 4.4558. Test acc: 0.03
+Degree: 330. Test loss: 4.4555. Test acc: 0.03
+OA: 0.03368333333333333
+BLOCKSIZE: 2
+BLOCKAMOUNT: 31
+STRIDE: 1
+DROPOUT CHANCE: 0.3
+L2REG: 0.0005
+TOTAL TRAINING TIME: 583.686 seconds
+
+
+
+Ep. 1 - Loss: 4.581 - Acc: 0.019 - Val loss: 4.528 - Val acc: 0.020 
+30.591 seconds
+New best val_loss 4.528 
+Ep. 2 - Loss: 4.383 - Acc: 0.039 - Val loss: 4.483 - Val acc: 0.031 
+55.656 seconds
+New best val_loss 4.483 
+Ep. 3 - Loss: 4.273 - Acc: 0.051 - Val loss: 4.476 - Val acc: 0.031 
+80.904 seconds
+New best val_loss 4.476 
+Ep. 4 - Loss: 4.189 - Acc: 0.063 - Val loss: 4.501 - Val acc: 0.037 
+106.191 seconds
+Ep. 5 - Loss: 4.123 - Acc: 0.074 - Val loss: 4.601 - Val acc: 0.034 
+131.328 seconds
+Ep. 6 - Loss: 4.068 - Acc: 0.080 - Val loss: 4.622 - Val acc: 0.036 
+156.510 seconds
+Ep. 7 - Loss: 4.025 - Acc: 0.088 - Val loss: 4.805 - Val acc: 0.030 
+181.535 seconds
+Ep. 8 - Loss: 3.985 - Acc: 0.095 - Val loss: 4.815 - Val acc: 0.033 
+206.483 seconds
+Ep. 9 - Loss: 3.957 - Acc: 0.098 - Val loss: 4.702 - Val acc: 0.036 
+231.694 seconds
+Ep. 10 - Loss: 3.927 - Acc: 0.102 - Val loss: 4.879 - Val acc: 0.029 
+256.479 seconds
+Ep. 11 - Loss: 3.899 - Acc: 0.109 - Val loss: 4.719 - Val acc: 0.038 
+281.600 seconds
+Ep. 12 - Loss: 3.879 - Acc: 0.111 - Val loss: 4.711 - Val acc: 0.041 
+306.813 seconds
+Ep. 13 - Loss: 3.853 - Acc: 0.116 - Val loss: 4.944 - Val acc: 0.032 
+331.861 seconds
+Ep. 14 - Loss: 3.832 - Acc: 0.118 - Val loss: 4.856 - Val acc: 0.036 
+357.347 seconds
+Ep. 15 - Loss: 3.810 - Acc: 0.123 - Val loss: 4.964 - Val acc: 0.033 
+382.413 seconds
+Ep. 16 - Loss: 3.793 - Acc: 0.126 - Val loss: 4.899 - Val acc: 0.035 
+407.647 seconds
+Ep. 17 - Loss: 3.776 - Acc: 0.130 - Val loss: 5.079 - Val acc: 0.032 
+432.719 seconds
+Ep. 18 - Loss: 3.757 - Acc: 0.132 - Val loss: 4.881 - Val acc: 0.037 
+457.774 seconds
+Ep. 19 - Loss: 3.748 - Acc: 0.133 - Val loss: 4.942 - Val acc: 0.035 
+483.231 seconds
+Ep. 20 - Loss: 3.732 - Acc: 0.134 - Val loss: 4.932 - Val acc: 0.039 
+508.338 seconds
+Ep. 21 - Loss: 3.718 - Acc: 0.137 - Val loss: 5.110 - Val acc: 0.036 
+533.485 seconds
+Ep. 22 - Loss: 3.705 - Acc: 0.139 - Val loss: 5.278 - Val acc: 0.029 
+558.696 seconds
+Ep. 23 - Loss: 3.688 - Acc: 0.144 - Val loss: 5.211 - Val acc: 0.034 
+583.683 seconds

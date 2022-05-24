@@ -1,0 +1,2 @@
+model_checkpoint_path: "t2RobinCifar100"
+all_model_checkpoint_paths: "t2RobinCifar100"

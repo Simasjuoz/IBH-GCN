@@ -1,0 +1,2 @@
+model_checkpoint_path: "RobinCifar100C2x2-012dropout-refPadding-datanorm-nonSort"
+all_model_checkpoint_paths: "RobinCifar100C2x2-012dropout-refPadding-datanorm-nonSort"

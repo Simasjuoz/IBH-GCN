@@ -1,0 +1,54 @@
+Model: "hasbullah"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ flatten (Flatten)           multiple                  0 (unused)
+                                                                 
+ dropout (Dropout)           multiple                  0         
+                                                                 
+ reshape (Reshape)           multiple                  0 (unused)
+                                                                 
+ gcs_conv (GCSConv)          multiple                  448       
+                                                                 
+ gcs_conv_1 (GCSConv)        multiple                  8256      
+                                                                 
+ gcs_conv_2 (GCSConv)        multiple                  0 (unused)
+                                                                 
+ dense (Dense)               multiple                  0 (unused)
+                                                                 
+ dense_1 (Dense)             multiple                  0 (unused)
+                                                                 
+ dense_2 (Dense)             multiple                  4160      
+                                                                 
+ dense_3 (Dense)             multiple                  8320      
+                                                                 
+ dense_4 (Dense)             multiple                  33024     
+                                                                 
+ gcs_conv_3 (GCSConv)        multiple                  65664     
+                                                                 
+ gcs_conv_4 (GCSConv)        multiple                  32896     
+                                                                 
+ gcs_conv_5 (GCSConv)        multiple                  32896     
+                                                                 
+ gcs_conv_6 (GCSConv)        multiple                  32896     
+                                                                 
+ gcs_conv_7 (GCSConv)        multiple                  32896     
+                                                                 
+ global_max_pool (GlobalMaxP  multiple                 0         
+ ool)                                                            
+                                                                 
+ global_avg_pool (GlobalAvgP  multiple                 0         
+ ool)                                                            
+                                                                 
+ global_sum_pool (GlobalSumP  multiple                 0 (unused)
+ ool)                                                            
+                                                                 
+ dense_5 (Dense)             multiple                  131584    
+                                                                 
+ dense_6 (Dense)             multiple                  4617      
+                                                                 
+=================================================================
+Total params: 387,657
+Trainable params: 387,657
+Non-trainable params: 0
+_________________________________________________________________

@@ -1,0 +1,50 @@
+Model: "robin"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ flatten (Flatten)           multiple                  0 (unused)
+                                                                 
+ dropout (Dropout)           multiple                  0         
+                                                                 
+ reshape (Reshape)           multiple                  0 (unused)
+                                                                 
+ conv1d (Conv1D)             multiple                  0 (unused)
+                                                                 
+ dense (Dense)               multiple                  0 (unused)
+                                                                 
+ dense_1 (Dense)             multiple                  0 (unused)
+                                                                 
+ dense_2 (Dense)             multiple                  16        
+                                                                 
+ dense_3 (Dense)             multiple                  144       
+                                                                 
+ dense_4 (Dense)             multiple                  544       
+                                                                 
+ gcs_conv (GCSConv)          multiple                  2080      
+                                                                 
+ gcs_conv_1 (GCSConv)        multiple                  2080      
+                                                                 
+ gcs_conv_2 (GCSConv)        multiple                  2080      
+                                                                 
+ gcs_conv_3 (GCSConv)        multiple                  2080      
+                                                                 
+ gcs_conv_4 (GCSConv)        multiple                  2080      
+                                                                 
+ global_max_pool (GlobalMaxP  multiple                 0         
+ ool)                                                            
+                                                                 
+ global_avg_pool (GlobalAvgP  multiple                 0         
+ ool)                                                            
+                                                                 
+ global_sum_pool (GlobalSumP  multiple                 0 (unused)
+ ool)                                                            
+                                                                 
+ dense_5 (Dense)             multiple                  33280     
+                                                                 
+ dense_6 (Dense)             multiple                  5130      
+                                                                 
+=================================================================
+Total params: 49,514
+Trainable params: 49,514
+Non-trainable params: 0
+_________________________________________________________________
